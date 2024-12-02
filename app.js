@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Hello, World!!');
+  res.send('Hola Mundo!! (still passes tests)');
 });
 
 console.log("Done setting up server endpoints")
